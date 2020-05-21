@@ -94,12 +94,12 @@ class App extends Component {
             }
         }
         return (
-            <div>
+            <div className='divprincipale'>
                 <div className='search_bar'>
-                    <SearchBar callback={this.receivedSearch.bind(this)} callbackLanguage={this.changeLanguage.bind(this)}/>
+                    <SearchBar apiKey={this.state.apiKey} callback={this.receivedMovieClick.bind(this)} callbackLanguage={this.changeLanguage.bind(this)}/>
                 </div>
-                <div className='row'>
-                    <div className='col-md-8'>
+                <div className='row video_detail'>
+                    <div className='col-md-8 video_detail'>
                         {renderVideoDetail()}
                     </div>
                     <div className='col-md-4'>
