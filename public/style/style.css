@@ -1,0 +1,28 @@
+.search_bar{
+    margin-top:50px;
+    margin-bottom: 30px;
+}
+
+.search_barList{
+    margin-top:-2px;
+    margin-left: -55px;
+    z-index:1;
+}
+
+li:hover{
+    background-color: #E0E0E0;
+}
+
+.title_list_item{
+    padding-top: 40px;
+    text-align: center;
+}
+
+.video_detail{
+    position: absolute;
+    margin-top: 0px;
+}
+
+.divprincipale{
+    position: relative;
+}
